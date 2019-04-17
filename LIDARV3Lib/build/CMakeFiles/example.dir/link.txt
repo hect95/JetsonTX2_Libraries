@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3  -O3 -DNDEBUG   CMakeFiles/example.dir/example/example.cpp.o  -o example -rdynamic libLidarLiteV3Lib.so.1.0 /usr/local/lib/libI2C_DeviceLib.so -pthread -Wl,-rpath,/home/nvidia/Documents/LIDARV3Lib/build:/usr/local/lib 

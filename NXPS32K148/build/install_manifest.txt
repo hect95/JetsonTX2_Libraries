@@ -1,0 +1,6 @@
+/usr/local/lib/libNXPs32k148Lib.so.1.0
+/usr/local/lib/libNXPs32k148Lib.so.1
+/usr/local/lib/libNXPs32k148Lib.so
+/usr/local/include/NXPs32k148Lib/NXPS32k148Lib.h
+/usr/local/share/NXPs32k148Lib/cmake/NXPs32k148LibConfig.cmake
+/usr/local/share/NXPs32k148Lib/cmake/NXPs32k148LibConfig-release.cmake

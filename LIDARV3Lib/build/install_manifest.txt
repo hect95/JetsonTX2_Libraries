@@ -1,0 +1,6 @@
+/usr/local/lib/libLidarLiteV3Lib.so.1.0
+/usr/local/lib/libLidarLiteV3Lib.so.1
+/usr/local/lib/libLidarLiteV3Lib.so
+/usr/local/include/LidarLiteV3Lib/LidarLiteV3Lib.h
+/usr/local/share/LidarLiteV3Lib/cmake/LidarLiteV3LibConfig.cmake
+/usr/local/share/LidarLiteV3Lib/cmake/LidarLiteV3LibConfig-release.cmake

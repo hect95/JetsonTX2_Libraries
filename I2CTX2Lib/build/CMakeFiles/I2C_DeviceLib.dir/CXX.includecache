@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/I2C_DeviceLib.h
+vector
+-
+iostream
+-
+
+/home/nvidia/Documents/I2CTX2Lib/src/I2C_Device.cpp
+I2C_DeviceLib.h
+/home/nvidia/Documents/I2CTX2Lib/src/I2C_DeviceLib.h
+linux/i2c-dev.h
+-
+sys/ioctl.h
+-
+stdexcept
+-
+cstddef
+-
+cstdlib
+-
+cstdio
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+

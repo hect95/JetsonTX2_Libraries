@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -O3  -O3 -DNDEBUG  -shared -Wl,-soname,libNXPs32k148Lib.so.1 -o libNXPs32k148Lib.so.1.0 CMakeFiles/NXPs32k148Lib.dir/src/NXPs32k148.cpp.o 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LidarLiteV3Lib.h
+I2C_DeviceLib.h
+-
+
+/home/nvidia/Documents/LIDARV3Lib/src/lidarlite.cpp
+LidarLiteV3Lib.h
+/home/nvidia/Documents/LIDARV3Lib/src/LidarLiteV3Lib.h
+
+/usr/local/include/I2C_DeviceLib/I2C_DeviceLib.h
+vector
+-
+iostream
+-
+

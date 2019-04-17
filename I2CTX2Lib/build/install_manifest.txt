@@ -1,0 +1,6 @@
+/usr/local/lib/libI2C_DeviceLib.so.1.0
+/usr/local/lib/libI2C_DeviceLib.so.1
+/usr/local/lib/libI2C_DeviceLib.so
+/usr/local/include/I2C_DeviceLib/I2C_DeviceLib.h
+/usr/local/share/I2C_DeviceLib/cmake/I2C_DeviceLibConfig.cmake
+/usr/local/share/I2C_DeviceLib/cmake/I2C_DeviceLibConfig-release.cmake

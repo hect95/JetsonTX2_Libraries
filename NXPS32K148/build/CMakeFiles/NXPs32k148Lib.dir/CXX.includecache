@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/NXPS32k148Lib.h
+vector
+-
+thread
+-
+pthread.h
+-
+chrono
+-
+mutex
+-
+I2C_DeviceLib.h
+-
+
+/home/nvidia/Documents/NXPS32K148/src/NXPs32k148.cpp
+NXPS32k148Lib.h
+/home/nvidia/Documents/NXPS32K148/src/NXPS32k148Lib.h
+unistd.h
+-
+
+/usr/local/include/I2C_DeviceLib/I2C_DeviceLib.h
+vector
+-
+iostream
+-
+

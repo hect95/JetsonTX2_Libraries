@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -O3  -O3 -DNDEBUG  -shared -Wl,-soname,libI2C_DeviceLib.so.1 -o libI2C_DeviceLib.so.1.0 CMakeFiles/I2C_DeviceLib.dir/src/I2C_Device.cpp.o 

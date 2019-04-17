@@ -1,0 +1,8 @@
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/list_install_components.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/install.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/edit_cache.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/I2C_DeviceLib.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/install/strip.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/install/local.dir
+/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/test.dir

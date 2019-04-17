@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11 -O3  -O3 -DNDEBUG  -shared -Wl,-soname,libLidarLiteV3Lib.so.1 -o libLidarLiteV3Lib.so.1.0 CMakeFiles/LidarLiteV3Lib.dir/src/lidarlite.cpp.o 

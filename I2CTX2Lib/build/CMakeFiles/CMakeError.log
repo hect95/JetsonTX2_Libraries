@@ -1,0 +1,36 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0c16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0c16.dir/build.make CMakeFiles/cmTC_d0c16.dir/build
+make[1]: Entering directory '/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0c16.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=c++11 -O3     -o CMakeFiles/cmTC_d0c16.dir/CheckSymbolExists.cxx.o -c /home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d0c16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c16.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -O3      CMakeFiles/cmTC_d0c16.dir/CheckSymbolExists.cxx.o  -o cmTC_d0c16 -rdynamic 
+CMakeFiles/cmTC_d0c16.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.cxx:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d0c16.dir/build.make:97: recipe for target 'cmTC_d0c16' failed
+make[1]: *** [cmTC_d0c16] Error 1
+make[1]: Leaving directory '/home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d0c16/fast' failed
+make: *** [cmTC_d0c16/fast] Error 2
+
+File /home/nvidia/Documents/I2CTX2Lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
